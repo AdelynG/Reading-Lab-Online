@@ -68,11 +68,17 @@ header {
   font-size: 15px;
 }
 .lab-wrapper {
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
 
 .lab-section {
   flex: 1 1 300px;
+  text-align: center;
+  padding: 10px;
 }
 
 .topborder,
