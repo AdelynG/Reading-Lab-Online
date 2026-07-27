@@ -176,7 +176,7 @@ li a:hover {
 .three-column {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: stretch;
+  overflow-wrap: break-word;
   gap: 20px;
 }
 
