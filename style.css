@@ -70,21 +70,14 @@ header {
 .lab-wrapper {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
 }
 
 .lab-section {
-  flex: 1 1 300px;
+  flex: 1;
   text-align: center;
   padding: 10px;
-}
-
-.topborder,
-.border {
-  width: 100%;
-  max-width: 350px;
 }
 
 .lab-box {
@@ -176,7 +169,6 @@ li a:hover {
 .three-column {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  overflow-wrap: break-word;
   gap: 20px;
 }
 
@@ -236,8 +228,8 @@ li a:hover {
 }
 .routine {
   padding-top: 60px;
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 40%;
+  max-height: 40%;
 }
 
 .containers {
@@ -247,3 +239,15 @@ li a:hover {
   gap: 20px;
 }
 /* STYLE NAV BAR */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F4B237;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; 
+  font-weight: bold;
+}
+.button:hover {
+  background-color:  #C38E2C; 
+}
